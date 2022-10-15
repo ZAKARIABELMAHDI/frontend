@@ -6,12 +6,12 @@
     border: none;
     border-radius: 2px;
     text-align: center;
-    height: 50px;
-    width: 150px;
     cursor: pointer;
     padding: auto;
     margin: 15px;
+    padding: 10px;
     transition: opacity 0.15s;
+    vertical-align: top;
     
   }
   .subscribe-button:hover {
@@ -23,14 +23,14 @@
   .Join{
     background-color: rgb(52, 52, 191);
     color: white;
-    height: 50px;
-    width: 90px;
     border-radius: 15px;
     border: 1px solid green;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 25px;
     margin: 15px;
+    padding: 10px;
+    vertical-align: top;
     transition: background-color 0.15s, color 0.15s,box-shadow 0.15s;
   }
   .Join:hover {
@@ -46,10 +46,10 @@
     color: white;
     background-color: black;
     border: none;
-    height: 36px;
-    width: 105px;
-    margin: 15px;
+    margin: 10px;
+    padding: 10px;
     margin-bottom: 15px;
+    vertical-align: top;
     transition: opacity 0.15s;
       }
     .uber-button:hover{
@@ -59,11 +59,11 @@
     color: black;
     border:none;
     border-radius: 25px;
-    width: 150px;
-    height: 36px;
+    padding: 10px;
     background-color:rgb(250, 250, 16);
     margin-bottom: 15px;
     transition: background-color 0.15s;
+    vertical-align: top;
   }
   .amazon-button:hover{
     background-color: rgb(231, 231, 78);
@@ -75,30 +75,70 @@
     font-weight: bold;
     border: none;
     border-radius: 10px;
-    width: 80px;
-    height: 50px;
+    padding: 10px;
     margin: 15px;
     font-weight: bolder;
     cursor: pointer;
     transition: box-shadow 0.15s;
+    vertical-align: top;
 
   }
   .github-button:hover{
     box-shadow: 5px 5px 10px rgba(0,0, 0, 0.15);
   }
+  .back-button {
+    padding: 10px;
+    color: black;
+  }
+  .next-button {
+    padding: 10px;
+    color: black;
+  }
+  .stretch-button{
+    color: white;
+    background-color: green;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    transition: padding 1s;
+  }
+  .stretch-button:hover{
+      padding: 15px;
+
+  }
 </style>
 <button class="subscribe-button">
   Subscribe
-</button> <br>
+</button> 
 <button class="Join">
   JOIN
-</button> <br>
+</button> 
 <button class="uber-button">
   Request now
-</button> <br>
+</button> 
 <button class="amazon-button">
   ADD to Cart
-</button><br>
-<button class="github-button">
-  Sign up
 </button>
+<button class="github-button">
+  Sign up for new user
+</button>
+<br>
+<div class="4h">
+    <button class="back-button">
+      Back
+    </button>
+    <a href="">1</a>
+    <a href="">2</a>
+    <a href="">3</a>
+    <button class="next-button">
+      Next
+    </button>
+  </div>
+  <br>
+  <div class="4i">
+    <button class="stretch-button">
+      Stretch
+    </button>    
+  </div>
